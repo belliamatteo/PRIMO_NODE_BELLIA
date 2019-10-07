@@ -1,0 +1,22 @@
+{
+  "name": "primo_node_bellia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belliamatteo/PRIMO_NODE_BELLIA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belliamatteo/PRIMO_NODE_BELLIA/issues"
+  },
+  "homepage": "https://github.com/belliamatteo/PRIMO_NODE_BELLIA#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
