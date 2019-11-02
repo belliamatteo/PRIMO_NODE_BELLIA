@@ -3,6 +3,10 @@ var app = express();
 const path = require('path');
 const products = require("./Products.json")
 
+var cors = require('cors');
+
+app.use(cors());
+
 app.get('/',function(req,res){
  res.sendFile(path.join(__dirname+'/index.html'));
 });
